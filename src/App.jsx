@@ -3,21 +3,21 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="min-h-screen h-full bg-gradient-to-r from-blue-100 to-blue-200">
-      <div className="px-4 sm:px-6 md:px-12 pt-4 sm:pt-6 md:pt-10 mb-0">
-        <div className="px-2 sm:px-6 md:px-6 md:pb-0 md:pt-8 items-center bg-blue-50 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-6 md:gap-6 rounded-2xl relative shadow-2xl">
-          <div className="px-2 sm:px-6 md:px-16 flex flex-col items-center sm:items-start text-center sm:text-left">
-            <h1 className="text-xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4 sm:mb-6 leading-tight">
+    <div className="min-h-screen h-full bg-gradient-to-r from-blue-100 to-blue-200 relative overflow-hidden">
+      <div className="px-4 sm:px-6 md:px-12 pt-4 sm:pt-6 md:pt-12 lg:pt-16 mb-0">
+        <div className="px-2 sm:px-6 md:px-2 lg:px-6 md:pb-8 items-center bg-blue-50 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-6 md:gap-2 lg:gap-6 rounded-2xl relative shadow-2xl">
+          <div className="px-2 sm:px-6 md:px-16 py-10 flex flex-col items-center sm:items-start text-center sm:text-left">
+            <h1 className="text-xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4 sm:mb-6  leading-tight">
               We Are <br /> Concerned <br /> About Water
             </h1>
             <ul className="space-y-2 mb-4 sm:mb-6 flex flex-col justify-center sm:justify-start items-center sm:items-start">
-              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow text-sm sm:text-base">
+              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 md:px-4 py-2 rounded-full w-fit shadow text-sm sm:text-base">
                 Non-expiry formula
               </li>
-              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow text-sm sm:text-base">
+              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 md:px-2 lg:px-4 py-2 rounded-full w-fit shadow text-sm sm:text-base">
                 Bacteria-free technology
               </li>
-              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow text-sm sm:text-base">
+              <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 md:px-4 py-2 rounded-full w-fit shadow text-sm sm:text-base">
                 Health benefits
               </li>
             </ul>
@@ -36,7 +36,7 @@ function App() {
         </div>
       </div>
 
-      <div className="absolute z-50 -bottom-20 sm:-bottom-20 md:-bottom-5 left-0 w-full">
+      <div className="absolute z-50 top-[35rem] md:top-[25rem] lg:top-[26rem] left-0 w-full">
         <svg
           className="w-full h-[80px] sm:h-[120px] md:h-[150px] lg:h-[180px] xl:h-[220px]"
           viewBox="0 0 1440 500"
@@ -60,7 +60,7 @@ function App() {
         </svg>
       </div>
 
-      <div className="bg-[#D7E0E7] w-full min-h-screen mt-0 sm:mt-6 md:mt-6 px-4 sm:px-6 md:px-10 py-4 ">
+      <div className="bg-[#D7E0E7] w-full min-h-screen mt-0 sm:mt-6 md:mt-16 px-4 sm:px-6 md:px-10 py-4 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 md:gap-20 p-4 sm:p-6 md:p-10 border-t">
           <div>
             <h2 className="text-xl sm:text-2xl md:text-2xl font-bold text-gray-800 mb-2 sm:mb-3">
