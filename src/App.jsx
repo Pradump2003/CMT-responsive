@@ -36,7 +36,7 @@ function App() {
         </div>
       </div>
 
-      <div className="absolute z-50 top-[35rem] md:top-[25rem] lg:top-[26rem] left-0 w-full">
+      <div className="absolute z-50 top-[35rem] md:top-[27rem] lg:top-[26rem] left-0 w-full">
         <svg
           className="w-full h-[80px] sm:h-[120px] md:h-[150px] lg:h-[180px] xl:h-[220px]"
           viewBox="0 0 1440 500"
