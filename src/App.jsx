@@ -90,7 +90,7 @@ function App() {
         </div>
 
         <div className="p-4 sm:p-6 md:p-10 bg-[#EEF3F7] rounded-2xl shadow-lg my-4 sm:my-6 md:my-10 grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-3">
-          <div>
+          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
             <h1 className="text-lg sm:text-xl md:text-xl font-bold text-gray-800 mb-1 sm:mb-2">
               Aqua Edition <br /> Pvt. Ltd.
             </h1>
@@ -99,7 +99,7 @@ function App() {
               invention that eliminates the <br /> expiration date on bottled
               water
             </p>
-            <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow mt-2 sm:mt-4">
+            <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow mt-2 sm:mt-4 text-center">
               Our mission safe water
             </li>
           </div>
@@ -112,7 +112,7 @@ function App() {
             />
           </div>
 
-          <div>
+          <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left">
             <h1 className="text-lg sm:text-xl md:text-xl font-bold text-gray-800 mb-1 sm:mb-2">
               Provide non expiry water <br /> Pvt. Ltd.
             </h1>
@@ -121,7 +121,7 @@ function App() {
               we discovered when added to water ensures lifelong freshness and
               health.
             </p>
-            <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow mt-2 sm:mt-4">
+            <li className="bg-blue-500 text-white font-medium px-3 sm:px-6 py-2 rounded-full w-fit shadow mt-2 sm:mt-4 text-center">
               Purification technologies
             </li>
           </div>
